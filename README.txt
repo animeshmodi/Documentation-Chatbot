@@ -11,11 +11,12 @@ This Document Q&A System allows you to upload a text document or PDF, process it
   - scikit-learn
 
 
-  How it Works :
+## How it Works :
 1) Upload and process documents.
 
     - The system can handle both text documents and PDFs.
-    - It reads the content and preprocesses it, removing any extra whitespace, special characters (except periods and parentheses), and text within parentheses.
+    - It reads the content and preprocesses it, removing any extra whitespace, special characters (except periods and parentheses), and text within       
+      parentheses.
     - The text is divided into sentences and converted to TF-IDF vectors.
        
 2) Question Answering.
