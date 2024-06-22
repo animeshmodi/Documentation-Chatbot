@@ -1,0 +1,67 @@
+System Capabilities
+
+    - Upload text documents or PDFs
+    - Process documents and identify relevant topics
+    - Answer your questions based on the document's content
+    - Generate random questions to test your knowledge of the document
+
+
+Getting Started:
+
+    # Run the program:  Save the code as a Python file (e.g., document_qa.py) and run it from your terminal using python document_qa.py.
+
+    # Upload a document: The program will prompt you to enter the file path of your document. Make sure the file is accessible by the program. Supported formats include TXT and PDF.
+
+    # Document processing: Once you upload the document, the system will process it and identify potential topics within the text. It will then display a list of identified topics.
+
+    # Ask questions: You can now ask questions about the document. The system will try its best to find relevant answers based on the document's content and the identified topics.
+
+Specific questions: Formulate clear and concise questions related to the document's content.
+Random questions: Type "random" to have the system generate a question based on the document and attempt to answer it.
+Exit the program: Type "quit" to exit the Document Q&A System.
+
+
+## Example Interaction:
+
+Welcome to the Document Q&A System!
+Please provide the path to a text document or PDF to begin.
+Enter the file path: C:\INT\budget_speech.pdf  
+Successfully read PDF document.
+
+Document processed. Identified topics:
+Topic 1: Agriculture
+Topic 2: Finance
+Topic 3: Education
+Topic 4: Health
+Topic 5: Infrastructure
+
+You can now ask questions or type 'random' for a random question.
+Type 'quit' to exit.
+
+Your question: What are the programs for Farmers?
+Topic: Agriculture
+
+Relevance: 0.15
+A: Electroni c National Agriculture Market has integrated 1361 mandis and is providing services to 1.8 crore farmers with trading volume of  3 lakh crore.
+
+Relevance: 0.08
+mers will be formulated.
+
+Relevance: 0.05
+A: Crop insurance is given to 4 crore farmers under PM Fasal Bima Yojana.
+
+Relevance: 0.05
+A: The efforts for value addition in agricultural sector and boosting farmers income will be stepped up.
+
+Relevance: 0.04
+A: Pradhan Mantri Kisan Sampada Yojana has benefitted 38 lakh farmers and generated 10 lakh employment.
+
+Your question: quit
+Thank you for using the Document Q&A System. Goodbye!
+
+    
+    Additional Notes
+    
+        The system uses a topic-based approach to identify relevant answers. The accuracy of the answers depends on the quality of the document processing and the clarity of your questions.
+        The system may not be able to answer complex or open ended questions that require reasoning or interpretation beyond the document's content.
+        Feel free to experiment with different types of questions to test the system's capabilities.
